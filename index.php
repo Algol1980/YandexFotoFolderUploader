@@ -22,7 +22,7 @@ if (!isset($_SESSION['yandex_access_token'])) {
 </head>
 <body>
 <form action="result.php" method="post">
-    <label for="albums"></label>e
+    <label for="albums"></label>
     <textarea name="albums" id="" cols="30" rows="10"></textarea>
     <input type="submit" value="Send" name="sendAlbums">
 </form>
