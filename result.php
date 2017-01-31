@@ -36,7 +36,7 @@ if (!isset($_SESSION['yandex_access_token'])) {
 <div>
     <?php if (!empty($urlsArray)):
         foreach ($urlsArray as $value): ?>
-            <p><?php echo $value; ?></p>
+            <span><?php echo $value; ?></span><br>
         <?php endforeach ?>
     <?php endif ?>
 </div>
